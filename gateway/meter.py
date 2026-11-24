@@ -1,4 +1,4 @@
-"""Record per-request metering using integer microdollars (USD × 1,000,000)."""
+
 
 from dataclasses import dataclass
 
