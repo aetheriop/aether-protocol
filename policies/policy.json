@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "currency": "USD",
+  "unit": "cents",
+  "task_budget": 50000,
+  "category_caps": {
+    "models": 18000,
+    "infrastructure": 10000,
+    "review": 18000,
+    "fees": 4000
+  },
+  "require_human_approval": true,
+  "pause_if": [
+    "budget_exceeded",
+    "customer_disputes_acceptance",
+    "invoice_past_due"
+  ],
+  "example_tranche_policy": {
+    "distribution_priority": ["Spark", "Core", "Adaptive", "Frontier"],
+    "first_loss_priority": ["Frontier", "Adaptive", "Core", "Spark"],
+    "halve_turnover_reward_on_unlock": true
+  }
+}
