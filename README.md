@@ -33,9 +33,9 @@ queued → production → QA → invoiced → settled
 
 Приоритеты в `waterfall.py` настраиваются явно. В примере `policy.json` Frontier первым принимает списание. Вознаграждение за оборот применяется к активному капиталу. После разблокировки пример использует половину базовой ставки. Эти сценарии тестируются отдельно от пропорционального примера на главной.
 
-- [От оплаты заказчика до доли участника](https://aetheraipool.com/ru/docs#participant-share)
-- [Методика расчётов](https://aetheraipool.com/ru/methodology)
-- [Калькулятор окна пула](https://aetheraipool.com/ru/pool-plans#rates)
+- [От оплаты заказчика до доли участника](https://aetheriop.com/ru/docs#participant-share)
+- [Методика расчётов](https://aetheriop.com/ru/methodology)
+- [Калькулятор окна пула](https://aetheriop.com/ru/pool-plans#rates)
 
 ## Локальная проверка
 
